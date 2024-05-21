@@ -67,14 +67,14 @@ chibicc does not support complex numbers, K&R-style function prototypes, or GCC-
    ./chibicc [options] [file...]
 
 
-###Testing
+##Testing
 To run the tests, execute:
 make test
 
-#Contributing
+##Contributing
 When a bug is found, it is essential to go back to the original commit that introduced the bug and rewrite the commit history as if the bug never existed. Therefore, pull requests are not directly merged but are used to inform the historical rewrite.
 
-#Design Principles
+##Design Principles
 chibicc's core value is simplicity and readability. Code improvements that add complexity without substantial benefit to first-time readers are avoided. Some design decisions include:
 
 -  Using simple algorithms where n is small.
