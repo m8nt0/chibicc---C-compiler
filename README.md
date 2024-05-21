@@ -58,14 +58,16 @@ chibicc does not support complex numbers, K&R-style function prototypes, or GCC-
    git clone https://github.com/rui314/chibicc.git
    cd chibicc
    
-#Build the project:
-make
+2. Build the project:
+   ```bash
+   make
 
-Run the compiler:
-./chibicc [options] [file...]
+3. Run the compiler:
+   ```bash
+   ./chibicc [options] [file...]
 
 
-#Testing
+###Testing
 To run the tests, execute:
 make test
 
@@ -79,7 +81,7 @@ chibicc's core value is simplicity and readability. Code improvements that add c
 -  Allocating memory using calloc and not freeing it until the process exits.
 =  Maintaining code readability even at the cost of minor inefficiencies.
 
-$References
+#References
 -  tcc: A small C compiler by Fabrice Bellard
 -  lcc: A small C compiler
 -  An Incremental Approach to Compiler Construction
