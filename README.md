@@ -67,25 +67,25 @@ chibicc does not support complex numbers, K&R-style function prototypes, or GCC-
    ./chibicc [options] [file...]
 
 
-##Testing
+## Testing
 To run the tests, execute:
 make test
 
-##Contributing
+## Contributing
 When a bug is found, it is essential to go back to the original commit that introduced the bug and rewrite the commit history as if the bug never existed. Therefore, pull requests are not directly merged but are used to inform the historical rewrite.
 
-##Design Principles
+## Design Principles
 chibicc's core value is simplicity and readability. Code improvements that add complexity without substantial benefit to first-time readers are avoided. Some design decisions include:
 
 -  Using simple algorithms where n is small.
 -  Allocating memory using calloc and not freeing it until the process exits.
 =  Maintaining code readability even at the cost of minor inefficiencies.
 
-#References
+# References
 -  tcc: A small C compiler by Fabrice Bellard
 -  lcc: A small C compiler
 -  An Incremental Approach to Compiler Construction
 -  Rob Pike's 5 Rules of Programming
 
-#Contact
+# Contact
 For more information or to report issues, please visit the GitHub repository.
