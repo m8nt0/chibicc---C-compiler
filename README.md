@@ -66,10 +66,10 @@ chibicc does not support complex numbers, K&R-style function prototypes, or GCC-
    ```bash
    ./chibicc [options] [file...]
 
-
 ## Testing
-To run the tests, execute:
-make test
+   To run the tests, execute:
+      ```bash
+      make test
 
 ## Contributing
 When a bug is found, it is essential to go back to the original commit that introduced the bug and rewrite the commit history as if the bug never existed. Therefore, pull requests are not directly merged but are used to inform the historical rewrite.
